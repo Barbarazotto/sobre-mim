@@ -10,12 +10,15 @@ h1 {
 h2 {
     font-size: 1.5rem;
     font-weight: 700;
+    background-color:#4a0b0b
+    
+
 }
 
 header {
-    background-color: rgb(54, 7, 7);
+    background-color: #360707;
     padding: 1rem 2rem 1rem 2rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px #0000000a;
     position: sticky; /* pode ser necessário top, left, bottom ou right */
     top: 0;
 }
@@ -33,19 +36,26 @@ header a {
 }
 
 header a:hover {
-    background-color:black
+    background-color:#4a0b0b
 
 }
 section {
-    height: 80vh; /*vh -> view
-    margin: 1rem;
+    height: 80vh; /*vh -> view height (altura de viewport) */
+    margin: 2rem;
+    scroll-margin-top: 4rem;
     padding: 1rem;
-/*     border-width: 1px;
-    border-color: black;
-    border-style: solid; */
     border: 2px solid black;
+    /* overflow: hidden; */
 }
 
 p {
     margin-bottom: 1rem;
 }
+
+.place {
+    border-color: #ffffff;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    padding: 2px;
+    background-color: #ffffff;
+} 
