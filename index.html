@@ -5,23 +5,37 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scarle=1.0">
         <title>Sobre mim</title>
+        <link rel="stylesheet" href="reset.css">
+        <!--CSS externo (arquivo style)-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--CSS interno (tag style)-->
+        <style>
+            /* CSS Interno */
+            body {
+                background-color:rgba(230, 219, 204, 0.922);
+            }
+        </style>
     </head>
     <!-- HTML NÃO TEM PESCOÇO!-->
-    <body>
+    <body style="background-color:bisque /* CSS inline (atribuido style) */">
        <header>
-            <ul>
+            <nav>
+                <ul>
                 <li><a href="#sobreMIM">Sobre mim</a></li>
-                <li><a href="#formacaoAcademica">Fomração acadêmica</a></li>
+                <li><a href="#formacaoAcademica">Fomração</a></li>
                 <li><a href="#hardSkills">Hard skills</a></li>
                 <li><a href="#softSkills">Soft skills</a></li>
-                <li><a href="#meuProjetos">Meus projetos</a></li>
-                <li><a href="#meusArtigos">Meus artigos</a></li>
-                <li><a href="#rodape">Rodapé</a></li>
-            </ul>
+                <li><a href="#meuProjetos">Projetos</a></li>
+                <li><a href="#meusArtigos">Artigos</a></li>
+                <li><a href="#contato">Rodapé</a></li>
+                </ul>
+            </nav>
         </header>
         <section id="sobreMim">
             <h1>Sobre mim</h1>
-           <p>Meu nome é Bárbara Santana Zotto, mas a maioria das pessoas me chama de Babi. Nasci no dia 18/10/2008, e atualmente tenho 16 anos. Moro com meus pais e meu irmão, e temos 2 cachorras: uma Yorkshire e uma vira-lata. Sou apaixonada por tecnologia e sempre estou em busca de aprender mais!</p>
+            
+            <p>Meu nome é Bárbara Santana Zotto, mas a maioria das pessoas me chama de Babi. Nasci no dia 18/10/2008, e atualmente tenho 16 anos. Moro com meus pais e meu irmão, e temos 2 cachorras: uma Yorkshire e uma vira-lata. Sou apaixonada por tecnologia e sempre estou em busca de aprender mais!</p>
            <img src="Bárbara.jpg" alt="Foto de uma mulher branca, de cabelo cacheado com luzes e com óculos de grau." width="200" height="150" title="Foto de uma mulher branca, de cabelo cacheado com luzes e com óculos de grau.">     
            <ul>
               <li>
@@ -77,8 +91,8 @@
             <h2>Entre em contato comigo</h2>
             <form>
                 <input type="text" name="nome">
-                <input type="text" name="email">
-                <input type="text" name="mensagem">
+                <input type="email" name="email">
+                <input type="mensagem" name="mensagem">
                 <input type="submitl" name="botaoEnviar">
             </form>
         </section>
@@ -92,9 +106,12 @@
                 <li>
                  <a href="https://www.linkedin.com/in/b%C3%A1rbara-zotto/" target="_blank">Acesse o meu Linkedin</a>
                 </li>
-             </ul>
-            <h2>
-            </h2>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+            </ul>
+            <address>São Paulo, SP - Brasil</address>
+            <p>Desenvolvido </p>
         </footer>
 
     </body>
