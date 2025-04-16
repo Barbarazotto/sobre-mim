@@ -1,16 +1,28 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #6e3a3a;
+    color: var(--navy-900);
+    line-height: 1.6;
 }
+
 
 h1 {
     font-size: 2em; /* 1rem = 16px -> 1em = "M" */
     font-weight: bold;
 }
 
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #4a0b0b;
+}
+
 h2 {
     font-size: 1.5rem;
     font-weight: 700;
-    background-color:#4a0b0b
+    color: #2c2c2c;
+    margin-bottom: 1rem;
     
 
 }
@@ -36,26 +48,34 @@ header a {
 }
 
 header a:hover {
-    background-color:#4a0b0b
+    background-color:#4a0b0b;
+    border-radius: 0.5rem;
 
 }
 section {
-    height: 80vh; /*vh -> view height (altura de viewport) */
-    margin: 2rem;
+    height: auto; /* deixa crescer conforme o conteúdo */
+    margin: 2rem 0;
     scroll-margin-top: 4rem;
-    padding: 1rem;
-    border: 2px solid black;
-    /* overflow: hidden; */
-}
-
-p {
-    margin-bottom: 1rem;
+    padding: 0; /* sem padding aqui */
+    border: none; /* tirando a borda cinza */
 }
 
 .place {
-    border-color: #ffffff;
-    border: 2px solid white;
-    margin-bottom: 20px;
-    padding: 2px;
-    background-color: #ffffff;
-} 
+    background-color: #ffffff; /* fundo branco */
+    border: 2px solid #ffffff; /* borda branca */
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 2rem auto;
+    width: 90%;
+    box-shadow: 0 0 0 3px #000000, 0 4px 8px rgb(0, 0, 0); /* linha branca + sombra */
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--navy-700);
+    color: var(--white);
+  }
+  
