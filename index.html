@@ -29,17 +29,19 @@
                 <li><a href="#formacaoAcademica">Formação</a></li>
                 <li><a href="#hardSkills">Hard skills</a></li>
                 <li><a href="#softSkills">Soft skills</a></li>
-                <li><a href="#meuProjetos">Projetos</a></li>
+                <li><a href="#meusProjetos">Projetos</a></li>
                 <li><a href="#meusArtigos">Artigos</a></li>
                 <li><a href="#contato">Rodapé</a></li>
+                <li><span id="botao-tema">🌞</span></li>
+                <li><span id="botao-contraste">👀</span></li>
                 </ul>
             </nav>
         </header>
             <section id="sobreMim" >
                 <div class="place">
                     <h1>Sobre mim</h1>
-                    <p>Meu nome é Bárbara Santana Zotto, mas a maioria das pessoas me chama de Babi. Nasci no dia 18/10/2008, e atualmente tenho 16 anos. Moro com meus pais e meu irmão, e temos 2 cachorras: uma Yorkshire e uma vira-lata. Sou apaixonada por tecnologia e sempre estou em busca de aprender mais!</p>
                     <img src="Bárbara.jpg" alt="Foto de uma mulher branca, de cabelo cacheado com luzes e com óculos de grau." width="200" height="150" title="Foto de uma mulher branca, de cabelo cacheado com luzes e com óculos de grau."> 
+                    <p>Meu nome é Bárbara Santana Zotto, mas a maioria das pessoas me chama de Babi. Nasci no dia 18/10/2008, e atualmente tenho 16 anos. Moro com meus pais e meu irmão, e temos 2 cachorras: uma Yorkshire e uma vira-lata. Sou apaixonada por tecnologia e sempre estou em busca de aprender mais!</p>
                 </div>
             </section>  
            
@@ -56,24 +58,66 @@
         <section id="hardSkills">
             <div class="place">
                 <h2>Hard skills</h2>
-                Sou boa em Língua Portuguesa, sou nível intermediário de inglês, e estou aprendendo linguagens de Programação como:
-                    <ul>
-                        <li>Python </li>
-                        <li>Java</li>
-                        <li>JavaScript </li>
-                        <li>CSS</li>
-                        
+                <div class="cards-em-linha">
+                    <ul class="card">
+                        <li class="icone-card">🐍</li>
+                        <li class="titulo-card">Python</li>
+                        <li class="descricao-card">Full stack, Flask, FastAPI</li>
                     </ul>
-            </div>
+                    <ul class="card">
+                        <li class="icone-card">🌐</li>
+                        <li class="titulo-card">Desenvolvimento Web</li>
+                        <li class="descricao-card">Front-end, HTML, CSS, JavaScript</li>
+                    </ul>
+                    <ul class="card">
+                        <li class="icone-card">📲</li>
+                        <li class="titulo-card">Desenvolvimento Mobile</li>
+                        <li class="descricao-card">Kotlin, Android Studio, Jetpack Compose</li>
+                    </ul>
+                    <ul class="card">
+                        <li class="icone-card">🎲</li>
+                        <li class="titulo-card">Análise de Dados</li>
+                        <li class="descricao-card">MySQL, Power BI</li>
+                    </ul>
+                    <ul class="card">
+                        <li class="icone-card">🧪</li>
+                        <li class="titulo-card">Teste de Software</li>
+                        <li class="descricao-card">JUnit, Cypress</li>
+                    </ul>
+                </div>    
         </section>
 
         <section id="softSkills">
             <div class="place">
                 <h2>Soft skills</h2>
-                Sou uma pessoa dedicada, tanto nos estudos quanto nas tarefas que me proponho a realizar. Tenho facilidade em lidar com as pessoas, buscando sempre entendê-las e ajudá-las quando está ao meu alcance. Sou mais movida pela razão do que pelas emoções, o que me ajuda a tomar decisões mais equilibradas. Sou responsável e tenho uma boa comunicação, especialmente na oratória e sempre procuro aprender com cada experiência e estou disposta a me adaptar a novas situações e desafios.
+                <div class="cards-em-linha">
+                    <ul class="card">
+                        <li class="icone-card">🤝</li>
+                        <li class="titulo-card">Trabalho em equipe</li>
+                    </ul>
+                    <ul class="card">
+                        <li class="icone-card">🧠</li>
+                        <li class="titulo-card">Pensamento crítico</li>
+                    </ul>
+                    <ul class="card">
+                        <li class="icone-card">🤔</li>
+                        <li class="titulo-card">Resolução de problemas</li>
+                    </ul>
+                    <ul class="card">
+                        <li class="icone-card">🐙</li>
+                        <li class="titulo-card">Adaptabilidade</li>
+                    </ul>
+                    <ul class="card">
+                        <li class="icone-card">📚</li>
+                        <li class="titulo-card">Aprendizado contínuo</li>
+                    </ul>
+                    <ul class="card">
+                        <li class="icone-card">⏱️</li>
+                        <li class="titulo-card">Autogestão</li>
+                    </ul>
+                </div>
             </div>
-
-        </section>
+         </section>
 
         <section id="meusProjetos">
             <div class="place">
@@ -99,10 +143,10 @@
             <div class="place">
                 <h2>Entre em contato comigo</h2>
                 <form>
-                    <input type="text" name="nome">
-                    <input type="email" name="email">
-                    <textarea name="mensagem"></textarea>
-                    <input type="submit" value="Enviar">
+                    <input type="text" name="nome" placeholder="Seu nome">
+                    <input type="email" name="email" placeholder="Seu e-mail">
+                    <textarea name="mensagem" rows="5" cols="50" placeholder="Digite sua mensagem"></textarea>
+                    <input type="submit" value="Solicitar contato">
                 </form>
             </div>
         </section>
@@ -114,7 +158,7 @@
                      <a href="https://github.com/Barbarazotto" title="Clique para acessar meu portfólio no Github" target="_blank">Veja mais no meu GitHub</a>
                     </li> 
                     <li>
-                     <a href="https://www.linkedin.com/in/b%C3%A1rbara-zotto/" target="_blank">Acesse o meu Linkedin</a>
+                     <a href="https://www.linkedin.com/in/b%C3%A1rbara-zotto/" title="Clique para conhecer meu perfil profissional no LinkedIn" target="_blank">Acesse o meu Linkedin</a>
                     </li>
                     <li>Facebook</li>
                     <li>Instagram</li>
@@ -124,6 +168,31 @@
                 <p>&copy; 2025 Bárbara – Todos os direitos reservados.</p>
             </div>
         </footer>
+        
+        <script>
+            //Função que faz o toggle do tema da página 
+            document.querySelector('#botao-tema').addEventListener('click', trocaTema);
 
+            function trocaTema() {
+                const root = document.documentElement;
+                if (root.getAttribute('data-theme') === 'dark') {
+                    root.removeAttribute('data-theme');
+                }else {
+                    root.setAttribute('data-theme', 'dark');
+                }
+            }
+        </script>
+        <script>
+            document.querySelector('#botao-contraste').addEventListener('click', trocaCor)
+
+            function trocaCor() {
+              const root = document.documentElement;
+                if (root.getAttribute('data-theme') === 'contraste') {
+                     root.removeAttribute('data-theme');
+                }else {
+                    root.setAttribute('data-theme', 'contraste');
+                }
+            }
+        </script>
     </body>
 </html>
