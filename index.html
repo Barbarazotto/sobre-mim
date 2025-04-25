@@ -1,198 +1,250 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-theme="dark" data-theme="alto">
     <head>
-        <!-- Meta informações sobre a página -->
+        <!-- Meta informações sobre a pagina -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sobre mim</title>
+        <title>sobre mim</title>
+
+        <!-- CSS Reset -->
         <link rel="stylesheet" href="reset.css">
-        <!--CSS externo (arquivo style)-->
+ 
+        <!-- CSS externo (arquivo style) -->
         <link rel="stylesheet" href="style.css">
 
-        <!--CSS interno (tag style)-->
+        <!-- CSS interno (tag style) -->
         <style>
-            /* CSS Interno */
-            body {
-                background-color:#4a0b0bc4}
+            /* body{
+                background-color: #00ff00 ;
+                } */
         </style>
     </head>
     <body>
-       <header>
+        <header> 
+            
             <nav>
-                <h1>
-                    <p style="color: #4d2727;">PORTIFÓLIO</p>
-                </h1>
-            </nav>
-            <nav>
+                <nav>
+                    <h1>
+                        PORTFÓLIO
+                    </h1>
+                </nav>
+
                 <ul>
-                <li><a href="#sobreMim">Sobre mim</a></li>
-                <li><a href="#formacaoAcademica">Formação</a></li>
-                <li><a href="#hardSkills">Hard skills</a></li>
-                <li><a href="#softSkills">Soft skills</a></li>
-                <li><a href="#meusProjetos">Projetos</a></li>
-                <li><a href="#meusArtigos">Artigos</a></li>
-                <li><a href="#contato">Rodapé</a></li>
-                <li><span id="botao-tema">🌞</span></li>
-                <li><span id="botao-contraste">👀</span></li>
+                    <li><a href="#sobreMim">Sobre mim</a></li>
+                    <li><a href="#formaçãoAcademica">Formação</a></li>
+                    <li><a href="#hardSkills">Hard skills</a></li>
+                    <li><a href="#softSkills">Soft skills</a></li>
+                    <li><a href="#meusProjetos">Projetos</a></li>
+                    <li><a href="#meusArtigos">Artigos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><span id="botao-tema">🌱</span></li>
+                    <li><span id="botao-alto">👀</span></li>
                 </ul>
             </nav>
         </header>
-            <section id="sobreMim" >
-                <div class="place">
-                    <h1>Sobre mim</h1>
-                    <img src="Bárbara.jpg" alt="Foto de uma mulher branca, de cabelo cacheado com luzes e com óculos de grau." width="200" height="150" title="Foto de uma mulher branca, de cabelo cacheado com luzes e com óculos de grau."> 
-                    <p>Meu nome é Bárbara Santana Zotto, mas a maioria das pessoas me chama de Babi. Nasci no dia 18/10/2008, e atualmente tenho 16 anos. Moro com meus pais e meu irmão, e temos 2 cachorras: uma Yorkshire e uma vira-lata. Sou apaixonada por tecnologia e sempre estou em busca de aprender mais!</p>
-                </div>
-            </section>  
-           
-
-        <section id="formacaoAcademica">
-            <div class="place">
-                <h2>Formação acadêmica</h2>
-                <p>Atualmente, estou no 2º ano do Ensino Médio no Sesi Vila Leopoldina, com aulas às Segundas, Terças e Quintas. 
-                 Além disso, nas Quartas e Sextas, faço um curso de Desenvolvimento de Sistemas no Senai Ipiranga. 
-                </p>
-            </div>
+        
+        <section id="sobreMim">
+            <h1>Sobre mim</h1>
+                 <img src="Bárbara.jpg" alt="Foto de uma mulher branca, de cabelo cacheado com luzes e com óculos de grau." width="200" height="150" title="Foto de uma mulher branca, de cabelo cacheado com luzes e com óculos de grau."> 
+                 <p>Meu nome é Bárbara Santana Zotto, mas a maioria das pessoas me chama de Babi. Nasci no dia 18/10/2008, e atualmente tenho 16 anos. Moro com meus pais e meu irmão, e temos 2 cachorras: uma Yorkshire e uma vira-lata. Sou apaixonada por tecnologia e sempre estou em busca de aprender mais! Sou uma pessoa curiosa, sempre em busca de novos conhecimentos, principalmente quando se trata de tecnologia. Desde pequena, sempre me interessei por como as coisas funcionam, e foi assim que comecei a explorar a programação e o mundo da tecnologia. Estou no 2º ano do Ensino Médio e faço um curso de Desenvolvimento de Sistemas no Senai, o que me permite expandir ainda mais meus conhecimentos. Além de ser apaixonada por tecnologia, sou muito dedicada ao que faço, sempre buscando melhorar minhas habilidades e aprender algo novo todos os dias.</p>
         </section>
 
+        <section id="formaçãoAcademica"> 
+
+            <h2 class="titulo-secao">Formação acadêmica</h2>
+            
+            <p>Atualmente, estou no 2º ano do Ensino Médio no Sesi Vila Leopoldina, com aulas às Segundas, Terças e Quintas. 
+                Além disso, nas Quartas e Sextas, faço um curso de Desenvolvimento de Sistemas no Senai Ipiranga. 
+
+            <!-- ul.card>li.titulo-card+li.instituicao-card+li.ano-card -->
+            </section>
+
         <section id="hardSkills">
-            <div class="place">
-                <h2>Hard skills</h2>
-                <div class="cards-em-linha">
-                    <ul class="card">
-                        <li class="icone-card">🐍</li>
-                        <li class="titulo-card">Python</li>
-                        <li class="descricao-card">Full stack, Flask, FastAPI</li>
+            <h2 class="titulo-secao">Hard skills </h2>
+            <div class="cards-em-linha">
+
+                
+                <ul class="card">
+                    <li class="titulo-card"> Lógica de programação</li>
+                    <li class="icone-card">🧠</li>
+                    <li class="descricao-card"> </li>
+                </ul>
+                <ul class="card">
+                    <li class="titulo-card">HTMl</li>
+                    <li class="icone-card">>/></li>
+                    <li class="descricao-card"> </li>
+                </ul>
+                <ul class="card">
+                    <li class="titulo-card">JavaScript</li>
+                    <li class="icone-card">☕</li>
+                    <li class="descricao-card"> </li>
+                </ul>
+                <ul class="card">
+                    <li class="titulo-card">linguagem de marcação </li>
+                        <li class="icone-card">.,!</li>
+                        <li class="descricao-card"> </li>
                     </ul>
                     <ul class="card">
-                        <li class="icone-card">🌐</li>
-                        <li class="titulo-card">Desenvolvimento Web</li>
-                        <li class="descricao-card">Front-end, HTML, CSS, JavaScript</li>
-                    </ul>
-                    <ul class="card">
-                        <li class="icone-card">📲</li>
-                        <li class="titulo-card">Desenvolvimento Mobile</li>
-                        <li class="descricao-card">Kotlin, Android Studio, Jetpack Compose</li>
-                    </ul>
-                    <ul class="card">
-                        <li class="icone-card">🎲</li>
-                        <li class="titulo-card">Análise de Dados</li>
-                        <li class="descricao-card">MySQL, Power BI</li>
-                    </ul>
-                    <ul class="card">
-                        <li class="icone-card">🧪</li>
-                        <li class="titulo-card">Teste de Software</li>
-                        <li class="descricao-card">JUnit, Cypress</li>
-                    </ul>
-                </div>    
+                        <li class="titulo-card">Inglês </li>
+                            <li class="icone-card">.🔤</li>
+                            <li class="descricao-card"> </li>
+                        </ul>
+                        <ul class="card">
+                            <li class="titulo-card">GitHub </li>
+                                <li class="icone-card">🐈‍⬛</li>
+                                <li class="descricao-card"> </li>
+                            </ul>
+                    </div>
+                    
+                </div>
+
         </section>
 
         <section id="softSkills">
-            <div class="place">
-                <h2>Soft skills</h2>
-                <div class="cards-em-linha">
-                    <ul class="card">
-                        <li class="icone-card">🤝</li>
-                        <li class="titulo-card">Trabalho em equipe</li>
-                    </ul>
-                    <ul class="card">
-                        <li class="icone-card">🧠</li>
-                        <li class="titulo-card">Pensamento crítico</li>
-                    </ul>
-                    <ul class="card">
-                        <li class="icone-card">🤔</li>
-                        <li class="titulo-card">Resolução de problemas</li>
-                    </ul>
-                    <ul class="card">
-                        <li class="icone-card">🐙</li>
-                        <li class="titulo-card">Adaptabilidade</li>
-                    </ul>
-                    <ul class="card">
-                        <li class="icone-card">📚</li>
-                        <li class="titulo-card">Aprendizado contínuo</li>
-                    </ul>
-                    <ul class="card">
-                        <li class="icone-card">⏱️</li>
-                        <li class="titulo-card">Autogestão</li>
-                    </ul>
-                </div>
-            </div>
-         </section>
+            <h2 class="titulo-secao">Soft skills</h2>
+            <div class="cards-em-linha">
 
-        <section id="meusProjetos">
-            <div class="place">
-                <h2>Meus projetos</h2>
-                <article>
-                    <ul>
-                        <h3> Moonlander 💫</h3>
-                        <p> Um dos meus projetos é o 'Moonlander', um jogo que desafia a habilidade de pousar com precisão, na velocidade exata. Embora pareça simples à primeira vista, ele oferece um bom nível de dificuldade. </p>
-                        <li> Clique aqui para experimentar:  <a href="https://github.com/Barbarazotto/lopal-moonlander.git" target="_blank"><strong> Moonlander </strong></a> 
-                        </li>
+                
+                <ul class="card">
+                    <li class="titulo-card">Racional e equilibrada</li>
+                    <li class="icone-card">✨</li>
+                </ul>
+                <ul class="card">
+                    <li class="titulo-card">Dedicada e esforçada</li>
+                    <li class="icone-card">🧠</li>
+                </ul>
+                <ul class="card">
+                    <li class="titulo-card">Boa comunicação</li>
+                    <li class="icone-card">💬</li>
+                </ul>
+                <ul class="card">
+                    <li class="titulo-card">Empática e compreensiva </li>
+                        <li class="icone-card">🫶</li>
                     </ul>
-                </article>
-            </div>
+                    <ul class="card">
+                        <li class="titulo-card">Firme e madura </li>
+                            <li class="icone-card">🧍‍♀️</li>
+                        </ul>
+                        <ul class="card">
+                            <li class="titulo-card">Trabalho em equipe</li>
+                                <li class="icone-card">🧑‍💻</li>
+                            </ul>
+                </div>
         </section>
 
+        <section id="meusProjetos">
+            <h2 class="titulo-secao">Meus projetos</h2> 
+                <h3> Moonlander 💫</h3>
+                    <p> Um dos meus projetos é o 'Moonlander', um jogo que desafia a habilidade de pousar com precisão, na velocidade exata. Embora pareça simples à primeira vista, ele oferece um bom nível de dificuldade. </p>
+                    <li> Clique aqui para experimentar:  <a href="https://github.com/Barbarazotto/lopal-moonlander.git" target="_blank"><strong> Moonlander </strong></a> 
+                    </li>
+          </section>
+
         <section id="meusArtigos">
-            <div class="place">
-                <h2>Meus artigos</h2>
+            <h2 class id="titulo-secao">Meus artigos</h2>
+
+            <div class="artigos cards-em-linha">
+                <article class="card">
+                    <header>
+                        <h3 class="card-titulo">O que é Git e como usar no dia a dia</h3> 
+                        <span class="data-publicacao">12 mar 2025</span>
+                        <span class="autor">Bárbara Zotto</span>
+                    </header>
+
+                    <p>Explicando de forma fácil como versionar seus projetos.</p>
+
+                    <footer>
+                    <button type="button" class="botao botao-continue">Continue lendo</button>
+                    <button type="button" class="botao botao-compartilhar">Compartilhar</button>
+                    </footer>
+                </article>
+
+                <article class="card">
+                    <header>
+                        <h3 class="card-titulo">Top 5 sites pra aprender programação de graça</h3> 
+                        <span class="data-publicacao">10 jan 2025</span>
+                        <span class="autor">Bárbara Zotto</span>
+                    </header>
+
+                    <p>Quer aprender programação, mas não sabe onde encontrar essa ajuda? Eu te ajudo!.</p>
+                    
+                    <footer>
+                    <button type="button" class="botao botao-continue">Continue lendo</button>
+                    <button type="button" class="botao botao-compartilhar">Compartilhar</button>
+                    </footer>
+                </article>
+
+                <article class="card">
+                    <header>
+                        <h3 class="card-titulo">Como tomar decisões racionais mesmo em momentos difíceis</h3> 
+                        <span class="data-publicacao">18 out 2024</span>
+                        <span class="autor">Bárbara Zotto</span>
+                    </header>
+
+                    <p>Como você pode lidar com sentimentos de forma madura? </p>
+                    
+                    <footer>
+                    <button type="button" class="botao botao-continue">Continue lendo</button>
+                    <button type="button" class="botao botao-compartilhar">Compartilhar</button>
+                    </footer>
+                </article>
             </div>
+
         </section>
 
         <section id="contato">
-            <div class="place">
-                <h2>Entre em contato comigo</h2>
-                <form>
-                    <input type="text" name="nome" placeholder="Seu nome">
-                    <input type="email" name="email" placeholder="Seu e-mail">
-                    <textarea name="mensagem" rows="5" cols="50" placeholder="Digite sua mensagem"></textarea>
-                    <input type="submit" value="Solicitar contato">
-                </form>
-            </div>
+            <h1>Entre em contato comigo</h1>
+            <form>
+                <input type="text" placeholder="Digite seu nome">
+                <input type="email" placeholder="email@exemplo.com">
+                <input type="tel" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"  placeholder="digite seu telefone (99) 99999-9999">
+                <textarea placeholder="digite sua mensagem" rows="5" cols="50"></textarea>
+                <input type="submit" name="botaoEnviar" value="solicitar contato">
+            
+            </form>
         </section>
-        
+
         <footer id="rodape">
-                <h2>Links úteis</h2>
-                <ul>
-                    <li>
-                     <a href="https://github.com/Barbarazotto" title="Clique para acessar meu portfólio no Github" target="_blank">Veja mais no meu GitHub</a>
-                    </li> 
-                    <li>
-                     <a href="https://www.linkedin.com/in/b%C3%A1rbara-zotto/" title="Clique para conhecer meu perfil profissional no LinkedIn" target="_blank">Acesse o meu Linkedin</a>
-                    </li>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>YouTube</li>
-                </ul>
-                <address>São Paulo, SP - Brasil</address>
-                <p>&copy; 2025 Bárbara – Todos os direitos reservados.</p>
-            </div>
+            <h2>Links úteis</h2>
+            <ul>
+                <li>
+                 <a href="https://github.com/Barbarazotto" title="Clique para acessar meu portfólio no Github" title="Clique para conhecer meu perfil no GitHub" target="_blank">Veja mais no meu GitHub</a>
+                </li> 
+                <li>
+                 <a href="https://www.linkedin.com/in/b%C3%A1rbara-zotto/" title="Clique para conhecer meu perfil profissional no LinkedIn" target="_blank">Acesse o meu Linkedin</a>
+                </li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+            </ul>
+            <address>São Paulo, SP - Brasil</address>
+            <p>&copy; 2025 Bárbara – Todos os direitos reservados.</p>
         </footer>
-        
         <script>
-            //Função que faz o toggle do tema da página 
-            document.querySelector('#botao-tema').addEventListener('click', trocaTema);
+            document.querySelector("#botao-tema").addEventListener("click", trocaTema)
 
-            function trocaTema() {
+            function trocaTema(){
                 const root = document.documentElement;
-                if (root.getAttribute('data-theme') === 'dark') {
-                    root.removeAttribute('data-theme');
-                }else {
-                    root.setAttribute('data-theme', 'dark');
-                }
-            }
-        </script>
-        <script>
-            document.querySelector('#botao-contraste').addEventListener('click', trocaCor)
 
-            function trocaCor() {
-              const root = document.documentElement;
-                if (root.getAttribute('data-theme') === 'contraste') {
-                     root.removeAttribute('data-theme');
-                }else {
-                    root.setAttribute('data-theme', 'contraste');
+                if (root.getAttribute("data-theme") === "dark"){
+                    root.removeAttribute("data-theme");
+                }else{
+                    root.setAttribute("data-theme", "dark");
                 }
             }
+
+            document.querySelector("#botao-alto").addEventListener("click", trocaTemaAlto)
+
+            function trocaTemaAlto(){
+                const root = document.documentElement;
+
+                if (root.getAttribute("data-theme") === "alto"){
+                    root.removeAttribute("data-theme");
+                }else{
+                    root.setAttribute("data-theme", "alto");
+                }
+            }
+
         </script>
     </body>
-</html>
+</html> 
